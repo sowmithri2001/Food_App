@@ -1,0 +1,53 @@
+.cartStepperContent {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.trackLineProgress {
+  width: 100%;
+  height: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.165);
+  border-left: none;
+  border-right: none;
+}
+.trackLineProgressOrange {
+  height: 100%;
+  background-color: rgb(249, 148, 109);
+}
+.progressButton {
+  height: 28px;
+  width: 28px;
+  background-color: white;
+}
+.progressButton1 {
+  left: 20px;
+}
+.progressButton2 {
+  left: 45%;
+}
+.progressButton3 {
+  right: 10px;
+}
+.progressDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: center;
+  transition-delay: 2s;
+}
+.white {
+  color: white;
+}
+.stepText {
+  color: #6f6e6e;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}

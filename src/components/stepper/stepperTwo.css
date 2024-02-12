@@ -1,0 +1,22 @@
+.stage4 .bottomText1,
+.stage3 .bottomText1 {
+  color: #a6a6a6;
+}
+
+.stage2 .bottomText1 {
+  color: #2d2d2d;
+}
+
+.stage2 .topStage1 {
+  margin-bottom: 40px;
+}
+
+.bottomText2 {
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.posit {
+  left: 25%;
+  top: 23% !important;
+}

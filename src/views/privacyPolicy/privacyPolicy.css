@@ -1,0 +1,73 @@
+.privacyPolicyContainer {
+  width: 100%;
+  height: auto;
+}
+.privacyPolicyContent {
+  width: 55%;
+  min-width: 700px;
+  margin: auto;
+  height: 1000px;
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 35px;
+  overflow-y: scroll;
+}
+.ppHeading {
+  color: #6b84ff;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 34px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.introductionTextHead {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.introductionText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 31px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+/*scrollBar*/
+.privacyPolicyContent::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.privacyPolicyContent::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+}
+
+/* Handle */
+.privacyPolicyContent::-webkit-scrollbar-thumb {
+  height: 138px !important;
+  width: 7px;
+  opacity: 0.45;
+  border-radius: 4.5px;
+  background-color: #d8d8d8;
+}
+.privacyPolicyContent::-webkit-scrollbar-button {
+  height: 12px;
+}
+
+/* Handle on hover */
+.privacyPolicyContent::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

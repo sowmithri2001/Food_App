@@ -1,0 +1,253 @@
+.profileAddressContainer {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #b8e8f733;
+  min-height: 30rem;
+}
+
+.profileAddressContents {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  gap: 10px;
+}
+
+.profileAddressCardsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* padding: 6px; */
+}
+
+.addressCardContents {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profileAddressCard {
+  width: 48%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+}
+
+.profileAddressTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileAddressLocation {
+  color: #6f6f6f;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+
+.profileAddressDetails {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.profileAddressStatus {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.addressStatusTextNot {
+  color: #6a6a6a73;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.27px;
+  line-height: 19px;
+}
+
+.addressStatusText {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.27px;
+  line-height: 19px;
+}
+
+.profileAddressInfo {
+  display: flex;
+  text-align: left;
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+}
+
+.profileAddressButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+button.profileAddressEditButton {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+img.icnCheckBlack {
+  height: 16px;
+}
+
+img.addNewAddressImage {
+  height: 12px;
+  cursor: pointer;
+}
+
+.addNewAddressContainer {
+  background: white;
+  width: 60%;
+  min-width: 431px;
+  border-radius: 14px;
+}
+
+.addBackBtnConatiner {
+  padding: 0.5rem;
+  text-align: right;
+}
+
+.addAdressBodyHeader {
+  padding: 0.5rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.backButtonnAdress {}
+
+.addAddressHead {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.addAddressCurrent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addAddressLocConatiner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.addAddressLocationName {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+}
+
+.addAddressLocation {
+  display: flex;
+}
+
+form.addAddressFormContainer {
+  padding: 0.5rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.addAddressSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.addAddressSubBtn {
+  width: 70%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edittBtn {
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.addNewAddressModalError {
+  color: red;
+  font-size: 11px;
+  min-height: 18px;
+}
+
+.editBtnContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:768px) {
+  .profileAddressCard {
+    width: 100%;
+  }
+
+}

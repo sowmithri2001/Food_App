@@ -1,0 +1,28 @@
+.downloadAppContainer {
+  width: 100%;
+  height: auto;
+  background-image: url("../../assets/bg_pattern1.png");
+}
+.downloadAppContent {
+  width: 55%;
+  margin: auto;
+  height: 100%;
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+  align-items: center;
+}
+.foodIsForText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: left;
+}
+.divStoreButtons {
+  display: flex;
+  column-gap: 20px;
+}

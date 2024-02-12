@@ -1,0 +1,265 @@
+.offerModalDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-width: 700px;
+  height: 795px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vewOffersContent {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.viewOffersContentBody {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.searchBarViewOffers {
+  width: 50%;
+  height: 50px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.deliveryFoodTo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewOffersLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.deliveryToLeft {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.deliveryfoodHead {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+img.icn_pin {
+  width: 10px;
+}
+
+.viewOrdersLoc {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: left;
+}
+
+.changeViewOffers {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.viewOrdersLoc {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: left;
+  padding-right: 10px;
+  border-right: 1px solid #0000002e;
+}
+
+.viewOfferCardContainer {
+  /* display: flex; */
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 112%;
+}
+
+.viewOfferCardCardContent {
+  position: relative;
+}
+
+.viewOffersContentsDiv {
+  position: absolute;
+  top: 38px;
+  left: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.viewOffersFullContainer {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 29px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ViewAllOffersContainer {
+  margin-top: 196px;
+  min-height: 33rem;
+  margin-top: 200px;
+}
+
+.viewOffersContentsDiv {
+  position: absolute;
+  /* top: 35px; */
+  /* left: 101px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  justify-content: space-between;
+  /* height: 100%; */
+  padding-left: 10px;
+  /* width: 100%; */
+}
+
+img.viewOfferCouponImg {
+  width: 80%;
+  height: 240px;
+  min-width: 375px;
+  border-radius: 20px;
+  filter: brightness(0.5);
+}
+
+.viewOfferTextTopDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+span.viewOfferCodeText {
+  /* color: #FFE848; */
+  /* font-family: "Open Sans"; */
+  /* font-size: 24px; */
+  /* font-weight: bold; */
+  /* letter-spacing: 0; */
+  /* line-height: 33px; */
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 33px;
+  text-align: left;
+}
+
+span.viewOfferText {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+span.viewOfferTextBottomDiv {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+span.couponCode {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2.18px;
+  line-height: 19px;
+  padding: 5px;
+  border: 1px solid white;
+  background: #ffffff1f;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+span.viewGetOfferDiscount {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+span.viewOfferCodeTextApply {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  padding: 5px 23px;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1206px) {
+  img.viewOfferCouponImg {
+    min-width: 401px;
+  }
+
+  img.viewOfferCouponImg {
+    width: 80%;
+  }
+
+  .vewOffersContent {
+    width: 74%;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .viewOffersFullContainer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .ViewAllOffersContainer {
+    margin-top: 400px;
+  }
+}

@@ -1,0 +1,201 @@
+.myCartContainer {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #b8e8f733;
+  min-height: 33rem;
+}
+
+.myCartContents {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.myCartTitle {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: left;
+}
+
+.myCartCardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* padding: 6px; */
+}
+
+.myCartCard {
+  width: 32%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+.myCartCardTitle {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myCartCardContents {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+}
+
+.myCartHotelName {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.myCartRemoveOption {
+  color: #ed1b2e;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.myCartHotelAddress {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: left;
+}
+
+.myCartHotelItemsCount {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: left;
+}
+
+.myCartItemsProceedButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+button.myCartProceedText {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  padding: 5px 20px;
+  background: none;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  border: 1px solid rgba(246, 126, 126, 1.38);
+  color: rgba(246, 126, 126, 1.38);
+  cursor: pointer;
+}
+
+.modalDivs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-width: 700px;
+  height: 580px;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.modalNoCard {
+  padding: 3rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.confirmText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 27px;
+  /* text-align: center; */
+}
+
+.confirmBtns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button.deleteBtnn {
+  padding: 0.7rem 2rem;
+  font-family: "Open Sans";
+  font-size: 19px;
+  /* font-weight: 600; */
+  letter-spacing: -0.48px;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: red;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button.CancelBtnn {
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 19px;
+  /* font-weight: 600; */
+  letter-spacing: -0.48px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}

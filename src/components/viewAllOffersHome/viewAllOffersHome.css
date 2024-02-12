@@ -1,0 +1,45 @@
+.viewAllOferHome {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    flex-direction: column;
+}
+
+.offerContentss {
+    display: flex;
+    width: 55%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.viewOffersFullContainer {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 29px;
+    /* width: 100%; */
+    margin-top: 15px;
+}
+
+.viewOffersContentsDivs {
+    position: absolute;
+    top: 35px;
+    left: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+    /* height: 100%; */
+    padding-left: 10px;
+    /* width: 100%; */
+}
+
+img.viewOfferCouponImgs {
+    width: 63%;
+    height: 276px;
+    min-width: 375px;
+    border-radius: 20px;
+    filter: brightness(0.5);
+}

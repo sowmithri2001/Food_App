@@ -1,0 +1,58 @@
+.otpVerificationBody {
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  gap: 3rem;
+}
+
+.otpVericationHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.otpVerificationHEading {
+  color: #2a2c30;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.37px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 0 9px 0 #ffffff;
+  margin-top: 1rem;
+}
+
+.otpVericationContents {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+  text-align: center;
+  width: 77%;
+}
+
+.otpVerificationFormContents {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.otpTxtField {
+  position: relative;
+}
+
+p.form-error {
+  color: #ed1b2e;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 17px;
+  position: absolute;
+  bottom: 11rem;
+}

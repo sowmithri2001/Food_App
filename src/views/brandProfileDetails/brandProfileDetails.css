@@ -1,0 +1,50 @@
+.viewAllOffersDivv {
+  display: flex;
+  justify-content: flex-end;
+  color: #f5a623;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.17px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+img.filterArroww {
+  rotate: 90deg;
+  width: 8px;
+}
+
+.restaurantMenuContainer1 {
+  padding-top: 30px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.filterArrowContainer {
+  display: flex;
+  gap: 10px;
+}
+
+img.restaurantLogoIcn {
+  height: 90px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .contentInBrandsDetails {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leftSideInBrandDetails {
+    margin-top: 200px;
+  }
+}

@@ -1,0 +1,65 @@
+.otpVerificationBody {
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+
+.otpVericationHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 103%;
+}
+
+
+
+.otpVerificationHEading {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    margin-top: 1rem;
+}
+.otpVericationContents {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.otpVerificationFormContents {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.backImg{
+    height: 17px;
+        width: 17px;
+}
+.mainBackImg{
+    display: flex;
+    padding: 1rem;
+    justify-content: start;
+
+}
+.signUpCloses {
+    padding: 0.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    cursor: pointer;
+}

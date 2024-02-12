@@ -1,0 +1,10 @@
+.stageSixRatingDIV {
+  position: absolute;
+  bottom: 15px;
+  right: 70px;
+  color: #f54c5b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  line-height: 17px;
+}

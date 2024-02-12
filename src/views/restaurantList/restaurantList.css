@@ -1,0 +1,739 @@
+.restaurantListContainer {
+  width: 100%;
+  height: auto;
+  /* overflow: scroll; */
+  padding-top: 80px;
+  position: relative;
+}
+
+.searchBarDivContainer {
+  width: 100%;
+  height: auto;
+  background-image: url("../../assets/bg_pattern1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.searchBarDiv {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 23px 0px 23px 80px;
+  display: flex;
+  margin: auto;
+  /* justify-content: space-between; */
+  column-gap: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .searchBarDiv {
+    width: 90%;
+  }
+}
+
+.placeName {
+  height: 50px;
+  width: 100%;
+  padding-left: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+  outline: none;
+  border: none;
+}
+
+.placeDate {
+  height: auto;
+  width: 15%;
+  min-width: 100px;
+  position: relative;
+}
+
+.pinImage {
+  position: absolute;
+  height: 12px;
+  width: 8px;
+  top: 20px;
+  left: 15px;
+}
+
+.RouteSing {
+  padding: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+
+.gps {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 16px;
+  right: 15px;
+}
+
+.searchFeild {
+  height: 50px;
+  width: 100%;
+  padding-left: 40px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+  outline: none;
+  border: none;
+}
+
+.dateNow {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.foodForm {
+  height: auto;
+  width: 35%;
+  min-width: 250px;
+  position: relative;
+}
+
+.searchIcon {
+  height: 17px;
+  opacity: 0.6;
+  position: absolute;
+  top: 21px;
+  right: 20px;
+}
+
+.routeDiv {
+  width: 100%;
+  height: auto;
+  padding: 12px 0 12px 0;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25%;
+  color: #6f6f6f;
+  font-family: "Open Sans";
+  font-size: 12px;
+  background-color: #f1f3fb;
+}
+
+.restaurantContent {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topSectionRC {
+  width: 60%;
+  min-width: 760px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.rcHeading {
+  color: #636364;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 34px;
+  text-align: start;
+}
+
+.sort {
+  width: 100%;
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.listBy,
+.sortBy {
+  display: flex;
+  column-gap: 5px;
+}
+
+.option {
+  color: #303134;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.optionList {
+  color: #fca100;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.bottomSectionRC {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  min-width: 760px;
+  margin: auto;
+  column-gap: 20px;
+}
+
+.leftSideRC {
+  height: auto;
+  height: 10%;
+  width: 304px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: #fca100; */
+  margin-bottom: 150px;
+  padding-bottom: 25px;
+}
+
+.rightSideRC {
+  width: 70%;
+  /* width: 100%; */
+  /* width: 600px; */
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  /* background-color: aqua; */
+}
+
+.rightSideRCList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.eachRestaurant {
+  width: 100%;
+  height: auto;
+  min-height: 170px;
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 5px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.ratingDiv {
+  position: absolute;
+  height: 27.25px;
+  width: 43.6px;
+  border-radius: 4px;
+  background-color: #f5a623;
+  top: 10px;
+  right: 10px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.menuButton {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 111px;
+}
+
+.imageDiv {
+  width: 140px;
+  height: 140px;
+}
+
+.detailsDiv {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headDetails,
+.subDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 8px;
+}
+
+.headDetails {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #979797;
+}
+
+.subDetails {
+  padding-top: 10px;
+}
+
+.headingRestaurantName {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.restaurantAddress {
+  color: #858484;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.cuisine {
+  color: #9f9f9f;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.statusGreen {
+  color: #5fb700;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.statusRed {
+  color: red;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.moreDetails {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.filterHead {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterText {
+  color: #1b1c1d;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.resetText {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: right;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filterContentHead,
+.openstatusDiv,
+.deliveryTimeDiv,
+.avgMealCostDiv,
+.minimumOrderCostDiv,
+.cuisinesDiv {
+  width: 100%;
+  height: auto;
+}
+
+.ApplyButtonDiv {
+  margin-top: 10px;
+  width: 80%;
+  height: 45px;
+  outline: none;
+  border: 1px solid rgba(246, 126, 126, 1.38);
+  border-radius: 6px;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(246, 126, 126, 1.38);
+  cursor: pointer;
+}
+
+.accordian1Styling,
+.accordian2Styling {
+  color: #5e5e5e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.checkBox {
+  height: 16px;
+  width: 16px;
+}
+
+.OpenNowText {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  color: #f78713;
+}
+
+.openstatusDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 10px;
+}
+
+.showResText,
+.openCloseBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 7px;
+}
+
+.openCloseBox {
+  cursor: pointer;
+}
+
+.OpenNowTextDisabled {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  text-shadow: 0 0 2px #fff;
+}
+
+.showResText {
+  color: #9e9999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.48px;
+  line-height: 19px;
+}
+
+.deliveryTimeDiv,
+.avgMealCostDiv,
+.minimumOrderCostDiv,
+.CuisineList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.CuisineList {
+  margin-top: 0;
+}
+
+.deliveryInText {
+  color: #9e9999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.48px;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.headingStyling {
+  color: #9e9999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.48px;
+  line-height: 19px;
+}
+
+.optionTextStyling {
+  color: #606060;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+}
+
+/*popular brands*/
+
+.popularBrandsDiv {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  /* background-color: aliceblue; */
+}
+
+.brandLogoInCarousel {
+  height: 72px;
+  width: 77px;
+}
+
+.pbHeading {
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  justify-content: space-between;
+}
+
+.brandsHeading {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+
+.moreBrandsButton {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.optionList {
+  cursor: pointer;
+}
+
+.brandListDiv {
+  height: 166.79px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 70px;
+}
+
+.eachBrandDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 6px;
+}
+
+.brandName {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+
+.brandOutletCount {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+
+/*media query*/
+
+@media only screen and (max-width: 1500px) {
+  .moreDetails {
+    width: 50%;
+    text-align: start;
+  }
+}
+
+.splide__arrow--prev {
+  left: -2em;
+}
+
+.splide__arrow--next {
+  right: -2em;
+}
+
+/*media query*/
+.leftSideRCForMobile {
+  display: none;
+}
+
+.filterButtonForMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftSideRCForMobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: auto;
+    overflow-y: scroll;
+    width: 100vw;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    transition: 2s;
+  }
+
+  .filterButtonForMobile {
+    display: flex;
+    color: #303134;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+
+  .ApplyButtonDiv {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgba(246, 126, 126, 0.38);
+    border-radius: 6px;
+    background-color: transparent;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.18px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(246, 126, 126, 0.38);
+  }
+
+  .leftSideRC {
+    display: none;
+  }
+
+  .topSectionRC {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .bottomSectionRC {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .rightSideRC {
+    width: 100%;
+    min-width: 350px;
+  }
+
+  .searchBarDiv {
+    justify-content: space-evenly;
+  }
+
+  .restaurantListContainer {
+    padding-top: 20px;
+  }
+
+  .sort {
+    width: 95%;
+    justify-content: space-evenly;
+  }
+
+  .rcHeading {
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  .imageDiv {
+    width: 90px;
+    height: 90px;
+  }
+
+  .headingRestaurantName {
+    color: #223136;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+
+  .splide__list {
+    backface-visibility: hidden;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .brandLogoInCarousel {
+    height: 55px;
+    width: 60px;
+  }
+
+  .brandName {
+    color: #2d2d2d;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .brandOutletCount {
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 10px;
+    text-align: center;
+  }
+}

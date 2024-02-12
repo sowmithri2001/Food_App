@@ -1,0 +1,141 @@
+.scheduleBodyy {
+  position: relative;
+  width: 64%;
+  background: white;
+  height: auto;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  border-radius: 10px;
+}
+
+.scheduleHeading {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.scheduleBodyHold {
+  display: flex;
+  padding: 2rem 3rem;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.scheduleBody {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  letter-spacing: -0.41px;
+  line-height: 23px;
+}
+
+form.shceduleForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.scheduleDateTime {
+  width: 80%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.datePickers {
+  display: flex;
+  align-items: center;
+}
+
+.scheduleBttn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backBtnConatiner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.scheduleBodyHold {
+  padding: 2rem 3rem;
+}
+.css-1hz40d5-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  .MuiAutocomplete-input {
+  padding: 7.5px 4px 7.5px 6px;
+  margin-left: 20px;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  display: none;
+}
+/* svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  display: none;
+} */
+.searchInSubHeader {
+  height: 55px;
+}
+.placeDate {
+  width: 27%;
+  min-width: 200px;
+}
+.foodForm {
+  width: 55%;
+}
+.glassIconMobile {
+  display: none;
+}
+.foodFormFormMobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .foodForm {
+    display: none;
+  }
+  .foodFormFormMobile {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    margin: 20px;
+  }
+  .placeDate {
+    width: 80%;
+  }
+  .glassIconMobile {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+  }
+  .datePicker {
+    width: 70%;
+    gap: 10px;
+  }
+  .searchBarDiv {
+    justify-content: space-evenly;
+  }
+}

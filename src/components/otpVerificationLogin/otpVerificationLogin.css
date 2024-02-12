@@ -1,0 +1,77 @@
+.otpVerificationBody {
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 3rem;
+}
+
+.otpVericationHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.otpVerificationHEading {
+    color: #2A2C30;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    margin-top: 1rem;
+}
+p.form-errors {
+    color: #ed1b2e;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 17px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.otpVericationContents {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    text-align: center;
+    width: 77%;
+}
+
+.otpVerificationFormContents {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.NavTxt{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+        letter-spacing: -0.56px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+}
+.signUpClose {
+    padding: 0.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+}
+.signUpClosess {
+    padding: 1.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    cursor: pointer;
+}

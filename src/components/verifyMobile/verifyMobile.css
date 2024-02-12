@@ -1,0 +1,22 @@
+.otpVerificationBodys {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    background: white;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+p.form-errorss {
+    color: #ed1b2e;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 17px;
+    position: absolute;
+    bottom: 134px;
+}

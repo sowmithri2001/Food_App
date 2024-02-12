@@ -1,0 +1,71 @@
+.signUpClose {
+  padding: 0.5rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.otpSuccessContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 3rem;
+  gap: 31px;
+}
+
+.otpSuccessImage {
+  display: flex;
+  justify-content: center;
+}
+
+.registerSuccessText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+  /* gap: 1rem; */
+}
+
+.successWelcomeText {
+  color: #2a2c30;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.37px;
+  line-height: 27px;
+  text-align: center;
+  text-shadow: 0 0 9px 0 #ffffff;
+}
+
+.successEmailText {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 1rem;
+  /* min-width: 13rem; */
+  width: 15rem;
+}
+
+.successBrowserText {
+  width: 100%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}

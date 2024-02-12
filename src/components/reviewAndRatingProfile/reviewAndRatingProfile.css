@@ -1,0 +1,21 @@
+.reviewsAndRatingsSubHeads {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+.reviewCustomerNameWithDetailses {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 25rem;
+    width: 100%;
+    position: relative;
+}
+.reviewStarsImage {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}

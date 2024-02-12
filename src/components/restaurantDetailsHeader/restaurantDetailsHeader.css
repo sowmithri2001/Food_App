@@ -1,0 +1,227 @@
+.backgroundheaderDetails {
+  position: relative;
+  filter: brightness(0.2);
+  height: 100%;
+  width: 100%;
+}
+
+.mainDivDetailsHeader {
+  height: 422px;
+}
+
+.backgroundheaderDetailsimg {
+  height: 267px;
+  width: 100%;
+}
+
+.HotelDetailsHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  top: 300px;
+}
+
+.hotelDetailContainer {
+  width: 55%;
+  min-width: 598px;
+  background-image: url("../../assets/Resturant\ Image.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: cover;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.hotleName {
+  color: #1c1c1c;
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.hotelLocation {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.hotelRatingContinaer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hotelNameLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  gap: 9px;
+}
+
+.hotelRatingsTime {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotelMins,
+.hotelMinOrder {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.hotelRating {
+  display: flex;
+  padding: 4px 11px;
+  border-radius: 4px;
+  background-color: #5fb700;
+  /* background: green; */
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.hotelTimingsConatiner {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.HotelWorkingtimings {
+  color: #7c7c7c;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+  /* text-align: center; */
+}
+
+.hotelLastRatings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+span.dots {
+  height: 4px;
+  width: 4px;
+  border-radius: 2px;
+  background-color: #a3a3a3;
+}
+
+.hotelsDetailsHeader {
+  display: flex;
+  width: 55%;
+  margin: auto;
+  gap: 5rem;
+}
+
+.hotelDetailMenu {
+  color: #1f1f1f;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.orangeLine {
+  height: 5px;
+  width: 50px;
+  /* background-color: orange; */
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  border-radius: 2px;
+}
+
+.navDiv {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.hotelRatingsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hotelLastRatingText {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19px;
+  width: 335px;
+  text-align: left;
+}
+
+.hotelsDetailsHeader {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundheaderDetailsimg {
+    display: none;
+  }
+
+  .HotelDetailsHead {
+    margin-top: 20px;
+  }
+
+  .hotelDetailContainer {
+    width: 90%;
+    min-width: 350px;
+    background-image: url("http://localhost:3000/static/media/Resturant%20Image.48e8c7f261d7cb007502.png");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .hotelsDetailsHeader {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,290 @@
+.reviewsAndRatingsContainer {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+}
+
+.reviewsAndRatingsContents {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .reviewsBottom {
+  width: 100%;
+  display: flex;
+  column-gap: 25px;
+} */
+
+.reviewsLeftSide {
+  width: 100%;
+  min-width: 450px;
+  display: flex;
+  gap: 1rem;
+}
+.reviewsLeftCardmap {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 25%);
+}
+.customerReviewsRatings {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+  /* width: 90%; */
+  /* justify-content: space-around; */
+}
+input#custom-file-input {
+  display: none !important;
+}
+
+.customerReviewsDetails {
+  display: flex;
+}
+
+.reviewRatingDishImg {
+  height: auto;
+  display: flex;
+  width: 100%;
+  gap: 18px;
+}
+
+.reviewRatingDishImage {
+  height: 85px;
+}
+
+.reviewCustomerName {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.reviewsTitle {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+
+.reviewsShow {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+span.recentTitle {
+  color: #f67e03;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.customerReviewExplanation {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19px;
+  display: flex;
+  text-align: left;
+}
+
+img.ratingStars {
+  height: 18px;
+  width: 32px;
+  border-radius: 4px;
+}
+
+.reviewRatingsDate {
+  color: #b9b9b9;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.reviewCustomerNameReviews {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.numberOfRatings {
+  color: #b9b9b9;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.reviewsLike {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+
+.customerReviewDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optionToReview {
+  color: #858585;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviewCustomerNameWithDetails {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  margin-left: 20px;
+  gap: 2px;
+}
+
+img.reviewCustomerImage {
+  height: 45px;
+  border-radius: 50%;
+  width: 45px;
+}
+
+.reviewsRightSide {
+  width: 40%;
+  min-width: 300px;
+  height: 10%;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.reviewsRightSideCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+}
+
+.reviewsExperienceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reviewsExperienceCategory {
+  color: #565454;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 22px;
+}
+
+.titleToReview {
+  color: #858585;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.experienceStarsContainer {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 2px solid #ededed;
+}
+
+.experienceSaved {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.optionToAddImage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.reviewsExperienceTitle {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+}
+
+.reviewsAndRatingsSubHead {
+  width: 59%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+}
+
+.reviewsLeftCard {
+  width: 100%;
+  height: auto;
+}
+.reviewsLeftCardmap1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reviewsSubmitButton {
+  width: 100%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .reviewsBottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

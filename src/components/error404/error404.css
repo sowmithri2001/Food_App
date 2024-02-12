@@ -1,0 +1,25 @@
+.error404container {
+    width: 46%;
+    min-width: 598px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 5rem;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+.error404Txt {
+    color: #3E3E3E;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+.error404Img {
+    height: 200px;
+    width: 479px;
+}
+
+

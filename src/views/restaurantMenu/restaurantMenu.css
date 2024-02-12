@@ -1,0 +1,728 @@
+.restaurantMenuContainer {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.restaurantMenuContent {
+  width: 55%;
+  height: auto;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.rcMenuLeftSide {
+  width: 60%;
+  min-width: 450px;
+  height: 100%;
+  /* background-color: aquamarine; */
+}
+
+.rcMenuRightSide {
+  width: 30%;
+  min-width: 300px;
+  height: 30%;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.orderSummaryHead {
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+}
+
+.OrderHead {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.clearCart {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.orderList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  border-bottom: 1px solid #ededed;
+}
+
+.eachOrder {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  min-height: 120px;
+  border-bottom: 1px solid #ededed;
+  padding: 5px;
+}
+
+.eachOrderTop {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeftDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.topRightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dishName {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dishPrice {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.quantityIncDec {
+  height: 30px;
+  width: 87px;
+  border: 1px solid #cecfd4;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.nonvegmark {
+  margin-right: 5px;
+}
+
+.minusSign {
+  height: 2px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.plusSign {
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.quantityValue {
+  color: #f67e03;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: center;
+}
+
+.totalQuantityPrice {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: center;
+}
+
+.eachOrderDesc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.descriptionText {
+  width: 75%;
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: left;
+}
+
+.accordianHeading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSideAC {
+  color: #a08234;
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.rightSide {
+  color: #ed1b2e;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: right;
+}
+
+.payMentAccordian {
+  padding: 25px 0px;
+  width: 90%;
+  margin: auto;
+}
+
+.paymentaccordianHeading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.leftSidePAC {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.rightSidePAC {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.paymentDescriptionSplit {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: auto;
+}
+
+.itemsTotalDiv {
+  width: 95%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSide {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.rightSide {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: right;
+}
+
+.cookingInstructionDiv {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cookinInstructionHead {
+  color: #858585;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.checkOutButton {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.eachItemOnMenu {
+  width: 100%;
+  min-width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  column-gap: 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dishImageDiv {
+  width: 105px;
+  height: 105px;
+  position: relative;
+  border-radius: 6px;
+}
+
+.eachdishImage {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.vegNonVegIcn {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+}
+
+.dishDetailsDiv {
+  flex: 1;
+}
+
+.topNameDetailsDiv {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DishNameText {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.DishPriceText {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: 5px;
+}
+
+.bestsellerIcn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.customisableDiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: #a08234;
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: 5px;
+}
+
+.descriptionAndAddDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSideDesc {
+  width: 70%;
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: left;
+}
+
+.rightSideButtons {
+  border-radius: 15px;
+  height: 30px;
+  width: 106px;
+  border: 1px solid rgba(246, 126, 126, 1.38);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(246, 126, 126, 1.38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchBarDivMenu {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.searchBarMenu {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  padding-left: 50px;
+  border: none;
+  outline: none;
+}
+
+.searchIcnMenu {
+  height: 20px;
+
+  left: 23px;
+  top: 15px;
+  position: absolute;
+}
+
+.eachCatogery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25px;
+}
+
+.restaurantMenuArrayText {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+/*addonModal design*/
+.addOnModalDiv {
+  width: 500px;
+  height: auto;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.addOnModalstyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-width: 700px;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addOnHeading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  font-weight: 600;
+}
+
+.buttonDivAddModal {
+  width: 100%;
+  height: auto;
+}
+
+.buttonDivAddModal {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 80%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  /* font-size: 16px; */
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+  cursor: pointer;
+}
+
+.customiseDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  /* min-width: 700px; */
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.addCustomiseDiv {
+  /* width: 500px; */
+  /* height: auto; */
+  /* border: none; */
+  /* outline: none; */
+  background-color: white;
+  padding: 10px;
+}
+
+.noCustomiseData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.custimisedDataHeading {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customiseDataContainer {
+  display: flex;
+  padding: 2rem;
+}
+
+.customizationBottom {
+  /* align-items: center; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.customizationBtn {
+  display: flex;
+  justify-content: center;
+  font-size: 80%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  /* font-size: 16px; */
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+  cursor: pointer;
+}
+
+/*media query*/
+@media only screen and (max-width: 1300px) {
+  .restaurantMenuContent {
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+    /* justify-content: center; */
+  }
+
+  .rcMenuRightSide {
+    width: 30%;
+    min-width: 250px;
+    height: 30%;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.proceedToCartForMobile {
+  display: none;
+}
+
+.rcMenuRightSideForMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .rcMenuLeftSide {
+    width: 100%;
+    min-width: 200px;
+  }
+
+  .rcMenuRightSide {
+    display: none;
+  }
+
+  .dishImageDiv {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .eachItemOnMenu {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    column-gap: 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .hotelLastRatings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .proceedToCartForMobile {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .rcMenuRightSideForMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  .style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    max-height: 80%;
+    overflow-y: scroll;
+    border: none;
+    outline: none;
+    padding: 30px;
+  }
+
+  .addOnModalstyle {
+    width: 90%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 6px;
+  }
+}

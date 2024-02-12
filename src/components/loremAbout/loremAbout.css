@@ -1,0 +1,97 @@
+.loremImageHeader {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: #FFFFFF;
+    font-family: ".SF NS Display";
+    font-size: 37px;
+    letter-spacing: 0;
+    line-height: 46px;
+    text-align: center;
+}
+.loremImageContainer{
+    position: relative;
+}
+.loremImageAuthor {
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.loremContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.loremAboutContent {
+    width: 55%;
+    min-width: 598px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 2.5rem;
+}
+.loremAboutImg {
+    width: 100%;
+}
+.loremContent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.loremContentHeader {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 33px;
+    display: flex;
+}
+.loremContentDescription {
+    display: flex;
+    text-align: start;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 31px;
+}
+.loremContentWork {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.loremAboutBottom {
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+.loremAboutBottomTxt {
+    color: #7C7C7C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0.57px;
+    line-height: 27px;
+    text-align: inherit;
+}
+.loremAboutLineImg {
+    position: absolute;
+    left: 23%;
+    top: 25%;
+}
+.loremAboutLineImg1{
+    position: absolute;
+    left: 57%;
+    top: 25%;
+}

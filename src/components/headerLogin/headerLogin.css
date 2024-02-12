@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.headerContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 32px;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+img.LoginProfileIcon {
+  height: 38px;
+  width: 38.51px;
+  border-radius: 50%;
+}
+
+.logoText {
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 60px;
+  font-family: "Bebas Neue", cursive;
+  cursor: pointer;
+}
+
+select.languageSelect {
+  border: none;
+  outline: none;
+  color: #3e3e3e;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+  background-color: transparent;
+}
+
+.login {
+  color: #303134;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.createAccount {
+  color: #303134;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  padding: 12px 12px 12px 12px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.LoginProfileName {
+  display: flex;
+  align-items: center;
+  color: #303134;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.cartText {
+  /* color: red; */
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+}
+
+img.cartItems {
+  /* padding: 0px 12px; */
+  height: 31px;
+}
+
+.cartDetails {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.webMenu {
+  display: flex;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.cartCountcontainer {
+  position: relative;
+}
+
+.cartCount {
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+@media screen and (max-width: 650px) {
+  .mobileMenu {
+    display: flex;
+    gap: 20%;
+    margin-top: 5%;
+  }
+
+  .loginMoginIcon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .loginCreateAccIcon {
+    height: 24px;
+    width: 24px;
+    margin-top: 3%;
+  }
+
+  .webMenu {
+    display: none;
+  }
+}

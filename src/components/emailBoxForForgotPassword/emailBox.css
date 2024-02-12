@@ -1,0 +1,35 @@
+.emailBoxContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 40px;
+}
+.sendOtpButton {
+  width: 100%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.relativi {
+  position: relative;
+}
+.emailErrorMessage {
+  position: absolute;
+  bottom: -25px;
+  color: #ed1b2e;
+  font-size: 12px;
+}

@@ -1,0 +1,154 @@
+.LoginOneContent {
+  padding: 0.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 31px;
+}
+
+.loginClose {
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.loginOneText {
+  color: #2a2c30;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.47px;
+  line-height: 38px;
+}
+
+.loginOneForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loginTxtImg {
+  position: relative;
+}
+
+.passwordImg {
+  position: absolute;
+  right: 0.5rem;
+  top: 1.5rem;
+}
+
+.forgetText {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.loginOneLogin {
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  width: 100%;
+  padding: 5% 0% 5% 0%;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 0 9px 0 #ffffff;
+  font-weight: 600;
+}
+
+.facebookBtnLogin {
+  border: 1px solid #02a7fd;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  /* width: 100%; */
+  color: #2c79bd;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 0 9px 0 #ffffff;
+  padding: 4% 11% 4% 11%;
+}
+
+.facebookBtnLogin:disabled {
+  opacity: 0.6;
+  cursor: no-drop !important;
+}
+
+.googleBtnLogin {
+  border: 1px solid #ff8c7d;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  /* width: 100%; */
+  color: #d34836;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 0 9px 0 #ffffff;
+  padding: 4% 11% 4% 11%;
+}
+
+.googleBtnLogin:disabled {
+  opacity: 0.6;
+  cursor: no-drop !important;
+}
+
+.googleFace {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LoginAccount {
+  display: flex;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.getOne {
+  color: #f67e03;
+  text-decoration: none;
+}
+
+.loginOneFormM {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loginWhole {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.loginOneFeild {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.loginOneError {
+  color: red;
+  font-size: 11px;
+  min-height: 18px;
+}

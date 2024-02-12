@@ -1,0 +1,170 @@
+.profilePaymentStatus {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.profilePaymentMethod {
+  display: flex;
+  gap: 6%;
+}
+
+.profilePaymentDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.profilePaymentImage {
+  width: 80px;
+  height: auto;
+}
+
+.profilePaymentCardNum {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+  display: flex;
+}
+
+.profilePaymentCardBank {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.27px;
+  line-height: 19px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.paymentEditDelete {
+  display: flex;
+  gap: 7%;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.paymentEdit {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profileAddressPaymentCard {
+  width: 48%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profileAddressPaymentCard {
+  width: 48%;
+  min-width: 340px;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2%;
+}
+
+.addAddressLocConatinerCard {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  letter-spacing: -0.41px;
+  line-height: 23px;
+}
+
+.ExpiryAndSecurityParent {
+  display: flex;
+  gap: 39px;
+}
+
+.cardExpiryDetails {
+  width: 30%;
+  min-width: 200px;
+}
+
+.cardDetailsContainer {
+  display: flex;
+  width: 30%;
+  min-width: 111px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardExpiryDetails {
+  width: 30%;
+  min-width: 200px;
+  display: flex;
+  gap: 16px;
+}
+
+.cardSecurityContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 104%; */
+}
+
+.cardSecurityCard {
+  position: relative;
+}
+
+img.toggleEyes {
+  position: absolute;
+  right: 2.5rem;
+  bottom: 0.5rem;
+}
+
+span.expiryOfCard {
+  color: #858585;
+  font-family: "Open Sans";
+  font-size: 13px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.addNewCardModalError {
+  color: red;
+  font-size: 11px;
+  min-height: 18px;
+}
+
+@media only screen and (max-width:1307px) {
+  .profileAddressContents {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profileAddressCardsContainer {
+
+    justify-content: center;
+  }
+
+  .profileAddressTitle {
+
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .profileAddressPaymentCard {
+    width: 100%;
+  }
+
+}

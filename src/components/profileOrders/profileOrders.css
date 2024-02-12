@@ -1,0 +1,434 @@
+.profileOrdersContainer {
+  width: 100%;
+  min-height: 34rem;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #b8e8f733;
+}
+
+.profileOrdersContents {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  gap: 10px;
+}
+
+.profileOrderCardsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* padding: 6px; */
+}
+
+.orderCardContents {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profileOrderCard {
+  width: 48%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+}
+
+.profileOrdersStatusTitle {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.profileOrderDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileOrderId {
+  color: #313131;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.profileOrderStatus {
+  color: #72b000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+}
+
+.profileOrderKitchenName {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 17px;
+  letter-spacing: -0.29px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.profileOrderKitchenAddress {
+  color: #909090;
+  font-family: "Open Sans";
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 18px;
+  text-align: left;
+  text-transform: capitalize;
+
+}
+
+.profileOrderItemsCount {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: left;
+}
+
+.profileOrderButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+button.profileOrderDetailsButton {
+  border: 1px solid #7b7676;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  color: #726e6e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  text-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+button.profileOrderStatusButton {
+  border: 1px solid #c00b0b;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  color: #c00b0b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  text-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+/* Modal CSS */
+
+.orderDetailsModalContainer {
+  position: relative;
+  width: 50%;
+  background: white;
+  height: auto;
+  overflow-y: scroll;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+.closeBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+img.closeModalButton {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+}
+
+.orderDetailsModalContent {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #00000021;
+}
+
+.orderDetailsModalTitle {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderDetailsModalBody {
+  padding: 20px;
+}
+
+.orderDetailsModalCardTitle {
+  color: #565454;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.orderDetailsModalCardContent {
+  padding: 8px;
+}
+
+.orderDetailsModalCardContents {
+  padding: 8px;
+}
+
+.orderReviewStars {
+  cursor: pointer;
+}
+
+.orderDetailsModalCard {
+  width: 441px;
+  border: 1px solid #97979745;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.orderDetailsModalCardParts {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.orderDetailsModalCardPart {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.orderDetailsModalPartTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.orderDetailsModalPartTitleText {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.orderDetailsModalPartCost {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.orderDetailsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderDetailsInfoText {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 15px;
+  width: 60%;
+}
+
+.orderDetailsModalPartCurrency {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.orderAmountInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderAmountInfoText {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.orderAmountModalPartCurrency {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: right;
+}
+
+.orderPaymentPaid {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.orderPaymentPaidCost {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.orderAmountModalPartTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.orderDeliveryModalCard {
+  width: 441px;
+  border: 1px solid #97979745;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.orderDeliveryModalLocation {
+  color: #2d2d2da8;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.orderDeliveryModalAddress {
+  color: #223136;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.orderDeliveryModalCardContents {
+  padding: 8px;
+  /* border-bottom: 1px solid #0000001f; */
+}
+
+.orderDeliveryModalCardParts {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.orderDeliveryModalCardPart {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.orderDetailsModalFooterContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 10px;
+}
+
+.orderDetailsModalFooterRatings {
+  display: flex;
+  gap: 8px;
+}
+
+.reviewsSubmitButton {
+  width: 100%;
+}
+
+.reviewsText {
+  width: 50%;
+  border-radius: 6px;
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.56px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.modalFooterReviewsTextField {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media only screen and (max-width:1134px) {
+  .profileOrderCard {
+    width: 100%;
+
+    min-width: 250px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .profileOrdersContents {
+    width: 95%;
+    min-width: 300px;
+  }
+}

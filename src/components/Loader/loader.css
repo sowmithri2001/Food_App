@@ -1,0 +1,22 @@
+.loaderContainer {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 50;
+}
+.LoremText {
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 60px;
+}

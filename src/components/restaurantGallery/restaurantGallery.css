@@ -1,0 +1,150 @@
+.hotelGalleryContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  /* margin-top: 3%; */
+  padding-top: 90px;
+}
+
+button.nextBtnDiv1 {
+  border-radius: 0px 15px 15px 1px;
+  border: none;
+}
+
+img.prevRight1 {
+  rotate: 180deg;
+  /* height: 59px; */
+  margin-bottom: 1px;
+}
+
+button.previousBtn1 {
+  outline: none;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.hotelGalleryBody {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  justify-content: flex-start;
+  height: auto;
+}
+.hotelPhotosContiner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hotelAllPhotos {
+  border-radius: 4px;
+  background-color: white;
+
+  padding: 0.7rem 2rem;
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 19px;
+}
+
+.viewMoreButton {
+  background: linear-gradient(138.33deg, #f3698e 0%, #feb456 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.17px;
+  line-height: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hotelGalleryList {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+}
+
+img.hotelGalleryList1 {
+  zoom: 1.5;
+  height: 400px;
+  width: 542px;
+}
+
+
+.imgDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.detailsTextImg {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.countOfImg {
+  color: #d6d3d3;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.prevNextButtons {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+}
+
+.cancelBtnPhoto {
+  text-align: right;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 808px) {
+  .hotelDetailContainer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .HotelDetailsHead {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hotelsDetailsHeader {
+    width: unset;
+  }
+}

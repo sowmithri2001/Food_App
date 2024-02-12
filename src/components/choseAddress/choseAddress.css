@@ -1,0 +1,272 @@
+.choseAddressContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.topDliveryFormatDiv {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.deliveryDubHead {
+  color: #4a4a4a;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.deliveryMethodsDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.deliveryBox,
+.PickUpBox {
+  height: 115px;
+  width: 162px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deliveryBoxImg,
+.pickUpBoxImg {
+  height: 52px;
+  width: 87px;
+  margin-bottom: 10px;
+}
+
+.myAdressDiv {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.myAdreesTop {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.myAdressText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  letter-spacing: -0.41px;
+  line-height: 23px;
+}
+
+.AddNewAddressButton {
+  border-radius: 15px;
+  height: 30px;
+  width: 106px;
+  border: 1px solid rgba(246, 126, 126, 1.38);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(246, 126, 126, 1.38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.adressBoxesDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.addressBoxes {
+  height: 112px;
+  width: 287px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tickBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.unticked {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tickedImage {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  padding-left: 5px;
+}
+
+.addressType {
+  color: #6a6a6a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+
+.addressPlaceText {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+}
+
+.buttonsEditDelete {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 25px;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+
+.editButtonAddress,
+.deleteButtonAddress {
+  color: #f57c00;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+
+.contactDetailsFormDiv {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ContactDetailsHead {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  letter-spacing: -0.41px;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+
+.buttonLine {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+.formLine1,
+.formLine2,
+.formLine3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.formLine1 {
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.formLine2 {
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 5px;
+  margin-bottom: 35px;
+}
+
+.mobileNumberLabel {
+  color: #858585;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.formLine2inputDivs {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 40px;
+}
+
+.countryCodeEachDiv {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5px;
+  column-gap: 6px;
+}
+
+.eachCountryCodeText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+
+.MuiList-root {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.buttonLine {
+  margin-top: 20px;
+}

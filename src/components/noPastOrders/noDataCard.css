@@ -1,0 +1,37 @@
+.noPastOrdersContainer {
+  width: 600px;
+  min-width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.noDataImage {
+  height: 158px;
+  width: 208px;
+  opacity: 0.8;
+}
+.oopsText {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 27px;
+  text-align: center;
+}
+.messageText {
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.mobileInputDiv {
+  display: flex;
+  align-items: end;
+  column-gap: 20px;
+  position: relative;
+}
+.countryList {
+  width: 25%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+.classNameIcon {
+  width: 24px;
+  height: 17px;
+}
+.phoneErrorMessage {
+  position: absolute;
+  bottom: -25px;
+  color: #ed1b2e;
+  font-size: 12px;
+}

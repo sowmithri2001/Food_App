@@ -1,0 +1,111 @@
+.stepperContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: rgb(241, 243, 251);
+  min-height: 100vh;
+}
+
+.stepperMainContent {
+  width: 60%;
+  min-width: 700px;
+  height: auto;
+  /* background-color: blanchedalmond; */
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+
+.stepperMainBox {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 22px 0 rgba(196, 191, 191, 0.5);
+}
+
+.orderId {
+  color: #2d2d2d;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+}
+
+.stepperBottomButtons {
+  width: 100%;
+  padding: 25px 34px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #979797;
+}
+
+.rightSideButtonDivs {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.backToOrderButton {
+  height: 36px;
+  width: 139px;
+  border: 1px solid #4e4d4d;
+  opacity: 0.8;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+  color: #4e4d4d;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chatButton,
+.orderDetailsButton {
+  height: 36px;
+  width: 111px;
+  border-radius: 18px;
+  border: 1px solid rgba(246, 126, 126, 1.38);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(246, 126, 126, 1.38);
+  text-align: center;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderDetailsButton {
+  width: 120px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .stepperMainContent {
+    width: 90%;
+    min-width: 700px;
+    height: auto;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+  }
+}
